@@ -1,18 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
 
+const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/portfolio" : "";
+
 const techBooks = {
   currentlyReading: [
     {
       title: "Build: An Unorthodox Guide to Making Things Worth Making",
       author: "Tony Fadell",
-      cover: "/books/build.jpg",
+      cover: `${BASE_PATH}/books/build.jpg`,
       link: "https://www.goodreads.com/book/show/59696349-build",
     },
     {
       title: "Designing Data-Intensive Applications",
       author: "Martin Kleppmann",
-      cover: "/books/iges.png",
+      cover: `${BASE_PATH}/books/iges.png`,
       link: "https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications",
     },
   ],
