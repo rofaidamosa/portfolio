@@ -8,7 +8,7 @@ const content = {
     "A software engineer passionate about web dev, Go, and system programming.",
   email: "rofaidaahmed879@gmail.com",
   github: "https://github.com/rofaidamosa",
-  linkedin: "https://www.linkedin.com/in/rofaida-mosa-3402a2233/",
+  linkedin: "https://www.linkedin.com/in/rofaidamosa",
   projects: [
     {
       name: "Zawya Reservation API",
