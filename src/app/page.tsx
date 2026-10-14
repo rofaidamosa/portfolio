@@ -5,10 +5,10 @@ const content = {
   name: "Rofaida Mosa",
   role: "Software Engineer",
   intro:
-    "A software engineer swings between PTSD and programming. Passionate about web dev, Go, and system programming.",
+    "A software engineer passionate about web dev, Go, and system programming.",
   email: "rofaidaahmed879@gmail.com",
-  github: "https://github.com/RofaidaAhmed-100",
-  linkedin: "https://www.linkedin.com/in/rofaida-ahmed-3402a2233/",
+  github: "https://github.com/rofaidamosa",
+  linkedin: "https://www.linkedin.com/in/rofaida-mosa-3402a2233/",
   projects: [
     {
       name: "Zawya Reservation API",
@@ -16,7 +16,7 @@ const content = {
       description:
         "Production-ready backend for a movie reservation platform. JWT-based authentication, role-based access control for admin and user routes, and a normalized relational data model for movies, halls, and seat management.",
       tech: ["Go", "Gin", "GORM", "MySQL", "JWT"],
-      link: "https://github.com/RofaidaAhmed-100/zawya-reservation-api",
+      link: "https://github.com/rofaidamosa/zawya-reservation-api",
     },
     {
       name: "Gocker",
@@ -24,7 +24,7 @@ const content = {
       description:
         "A minimal container runtime built from scratch in Go — showing that Docker is really just Linux features combined together. Runs an isolated process using namespaces, cgroups v2, chroot, and a virtual network bridge.",
       tech: ["Go", "Linux Namespaces", "cgroups v2", "Networking"],
-      link: "https://github.com/RofaidaAhmed-100/gocker-",
+      link: "https://github.com/rofaidamosa/gocker-",
     },
     {
       name: "Data Access Layer",
@@ -32,7 +32,7 @@ const content = {
       description:
         "A Go application implementing clean data-access patterns with MySQL — schema design, CRUD operations, and careful connection management.",
       tech: ["Go", "MySQL", "SQL"],
-      link: "https://github.com/RofaidaAhmed-100/data_access",
+      link: "https://github.com/rofaidamosa/data_access",
     },
   ],
 };
@@ -43,9 +43,6 @@ export default function Home() {
       {/* Navbar Links */}
       <nav className="max-w-3xl mx-auto px-6 pt-8 pb-4 flex justify-end items-center font-mono text-sm">
         <div className="flex gap-6 text-text-muted transition-colors">
-          <Link href="/outside-programming" className="hover:text-accent">
-            outside programming
-          </Link>
           <Link href="/tech-reading" className="hover:text-accent">
             tech reading
           </Link>
