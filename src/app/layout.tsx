@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/portfolio" : "";
+
 export const metadata: Metadata = {
   title: "Rofaida A. Mosa — Software Engineer",
   description:
     "Junior Software Engineer specializing in Go, REST APIs, and database-driven services.",
+  icons: {
+    icon: `${BASE_PATH}/icon.jpg`,
+  },
 };
 
 export default function RootLayout({
